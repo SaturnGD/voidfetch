@@ -3,7 +3,8 @@ import platform
 
 
 # this shi already looks like yandere dev's code LMAOOO
-print("Operating System: " + os.name)
+#print("Operating System: " + os.name)
+# ^ also commented like the cpu info cuz it just prints "posix" as the os name
 print("System: " + platform.system())
 print("User: " + os.getlogin())
 print("DE: " + os.environ.get('DESKTOP_SESSION'))
