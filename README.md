@@ -1,2 +1,2 @@
 # voidfetch
-a simple WIP neofetch alternative made in C# by a very new programmer
+a neofetch alternative made by a very new programmer in Python
