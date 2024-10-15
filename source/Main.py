@@ -8,5 +8,6 @@ import platform
 print("System: " + platform.system())
 print("User: " + os.getlogin())
 print("DE: " + os.environ.get('DESKTOP_SESSION'))
-#print("CPU: " + platform.processor())
+#print("CPU: ", platform.processor())
 # ^ temporarily commented cuz it wont do anything
+print("CPUs: ", os.cpu_count())
