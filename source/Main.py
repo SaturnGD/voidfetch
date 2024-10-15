@@ -1,9 +1,7 @@
 import os
 import platform
 
-
 # :3
-
 
 # this shi already looks like yandere dev's code LMAOOO
 #print("Operating System: " + os.name)
