@@ -10,4 +10,4 @@ print("User: " + os.getlogin())
 print("DE: " + os.environ.get('DESKTOP_SESSION'))
 #print("CPU: ", platform.processor())
 # ^ temporarily commented cuz it wont do anything
-print("CPUs: ", os.cpu_count())
+print("CPUs:", os.cpu_count())
