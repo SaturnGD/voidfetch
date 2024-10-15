@@ -9,5 +9,5 @@ print("System: " + platform.system())
 print("User: " + os.getlogin())
 print("DE: " + os.environ.get('DESKTOP_SESSION'))
 #print("CPU: ", platform.processor())
-# ^ temporarily commented cuz it wont do anything
+# ^ temporarily commented cuz it wont do anything, if this doesnt get fixed for a while then idfk lol
 print("CPUs:", os.cpu_count())
